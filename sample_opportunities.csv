@@ -1,0 +1,11 @@
+﻿Mã yêu cầu,Tên khách hàng,Liên hệ,Hạng mục sản phẩm,Ngân sách (VNĐ),Thời hạn yêu cầu (Ngày),Chiết khấu đề nghị (%),Kịch bản kiểm thử
+REQ-001,Công ty Cổ phần Công nghệ EcoTech,tuan.le@ecotech.vn,"SP02: 2, SP04: 5",120000000.0,5.0,3.0,"Trường hợp thông thường (Đầy đủ dữ liệu, kho đủ hàng, trong ngân sách)"
+REQ-002,Tập đoàn Xây dựng An Thịnh,kinhdoanh@anthinhgroup.vn,"SP01: 1, SP06: 1",,15.0,0.0,Thiếu dữ liệu: Khách không cung cấp ngân sách
+REQ-003,Bệnh viện Đa khoa Quốc tế Trí Đức,it@triduchospital.com,"SP03: 10, SP05: 2",350000000.0,,5.0,Thiếu dữ liệu: Khách không nêu rõ thời hạn giao hàng
+REQ-004,Trường Quốc tế Horizon Academy,procurement@horizon.edu.vn,"SP04: 0, SP03: 5",150000000.0,7.0,0.0,Thiếu dữ liệu: Số lượng sản phẩm không hợp lệ (=0)
+REQ-005,Ngân hàng Thương mại Á Châu SmartBank,tech.buying@smartbank.com.vn,"SP01: 2, SP02: 4, SP06: 2",320000000.0,10.0,12.0,Vượt thẩm quyền: Khách đòi chiết khấu 12% (Cần Trưởng phòng duyệt)
+REQ-006,Công ty Logistics Vận tải Biển Đông,dieuhanh@biendonglogistics.vn,"SP03: 4, SP04: 4",135000000.0,6.0,4.0,Ranh giới ngân sách: Hụt ngân sách nhẹ <= 5% (Trình TPKD hỗ trợ giá)
+REQ-007,Công ty Cổ phần Chứng khoán Thăng Long,system@thanglongsec.com.vn,"SP01: 15, SP05: 1",1500000000.0,2.0,8.0,Không khả thi tồn kho & thời hạn: Đòi giao 2 ngày nhưng kho thiếu hàng cần 16 ngày
+REQ-008,Công ty Truyền thông MediaStar,contact@mediastar.vn,"SP03: 6, SP04: 6",250000000.0,10.0,25.0,Vượt trần chính sách: Đòi chiết khấu 25% (Vượt trần 15% của TPKD)
+REQ-009,Chuỗi Khách sạn Grand Palace,admin@grandpalace.vn,"SP01: 1, SP02: 2, SP05: 2",80000000.0,15.0,5.0,Không khả thi ngân sách: Ngân sách khách hàng chỉ bằng 45% giá trị giải pháp
+REQ-010,Công ty Phần mềm Sáng Tạo FinTech Việt,ceo@fintechviet.io,"SP03: 5, SP07: 1",160000000.0,7.0,5.0,"Ranh giới quy tắc: Đơn hàng nấc > 150M, chiết khấu 5% vừa khớp quyền NVKD"
